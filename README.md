@@ -114,3 +114,7 @@ Daftar lengkap: `php artisan route:list`.
 - Stok produk hanya berubah lewat **Barang Masuk / Keluar** (`StockService`), bukan lewat form edit produk.
 - Barang keluar yang melebihi stok ditolak dengan pesan error.
 - Semua perubahan stok dibungkus `DB::transaction` dengan `lockForUpdate()` agar stok dan riwayat tetap konsisten.
+
+## Link Demonstrasi
+
+https://drive.google.com/drive/folders/1JPIbkA4AgX_ENzHCJSPjaq51njBRaQSd
